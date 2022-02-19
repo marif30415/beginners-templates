@@ -1,1 +1,1 @@
-# Beginners-templates
+# Beginners Templates
