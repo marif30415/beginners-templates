@@ -16,6 +16,7 @@ PLEASE READ THE **Prerequisites** AND **Instructions** BEFORE CONTRIBUTE.
 ## Instructions
 
 - Create a directory(folder) and name it to **your name**.
+- You can add a `docs.md` about yourself(Optional).
 - Add your HTML, CSS and JavaScript files there.
 - You can add sub-directories to your directory (i.e one directory for HTML, one of CSS and one for JavaScript files).
 - Add **Comments** to your code (if anyone visits your code, they can understand your code by reading the comments).
