@@ -1,0 +1,269 @@
+<!-- Firstly you need to declare the document type -->
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    All contents should wrap inside this html tag
+    It has two main sections head & body
+    & lang attribute is used to specify the language of the document
+    & here it is English (en)
+    & head section contains meta information about the document
+    & body section contains the actual content of the document
+-->
+
+<head>
+    <!--
+        The head section contains title of the document, links to stylesheets, & scripts
+        & other meta tags like charset, viewport, description, keywords, author, etc.
+        & charset specifies the character encoding for the document
+        & viewport is used for responsive web design
+        & description provides a brief summary of the document
+        & keywords are used for search engine optimization
+        & author specifies the author of the document
+        & X-UA-Compatible is used for compatibility with Internet Explorer
+        & title specifies the title of the document
+        & link is used to link external stylesheets
+        & style is used to add internal CSS styles
+        & script is used to add external or internal JavaScript code
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a template project for HTML elements.">
+    <meta name="keywords" content="HTML, template, project, elements">
+    <meta name="author" content="Omayer Hasan Marif">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Template Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <script src="script.js"></script>
+    <script>
+        console.log("This is a script element");
+    </script>
+</head>
+
+<body>
+    <!--
+        The body section contains the actual content of the document
+        including headings, paragraphs, images, links, forms, lists, tables, and other semantic elements
+    -->
+    <!-- h1 is used for most largest heading -->
+    <!-- h2 is used for second most largest heading-->
+    <h1>Template project</h1>
+    <h2>Edited by: Omayer Hasan Marif</h2>
+
+    <!-- h3 is used to for third most largest heading -->
+    <!-- p is used to for specifying paragraph -->
+    <h3>First paragraph</h3>
+    <p>Text of first paragraph</p>
+
+    <h3>Second paragraph</h3>
+    <p>Text of second paragraph</p>
+
+    <!--
+        img is used to for specifying image
+        & src attribute is used to provide the path of the image
+        & alt attribute is used to provide alternative text if image cannot be displayed
+        & a is used to for specifying link
+        & href attribute is used to provide the URL of the link
+    -->
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="A beautiful picture">
+    <p>Caption: A beautiful picture</p>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.facebook.com">Facebook</a>
+    <a href="http://www.youtube.com">YouTube</a>
+
+
+    <!--
+        form is used to create an HTML form for user input
+        input is used to for specifying input elements
+        & type attribute is used to specify the type of input element
+        & value attribute is used to provide the default value of the input element
+        & select is used to create a dropdown list
+        & option is used to define options in a dropdown list
+        & textarea is used to create a multi-line text input
+        & button is used to create a clickable button
+        & label is used to define labels for input elements
+        & id attribute is used to uniquely identify an element
+        & name attribute is used to specify the name of an input element
+        & input type="submit" is used to create a submit button for the form
+    -->
+    <form>
+        <input type="checkbox" checked>
+        <input type="radio" checked>
+        <input type="text" value="Hello World">
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+        <textarea>This is a textarea</textarea>
+        <button>Click Me!</button>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <!--
+        ul is used to create an unordered list
+        ol is used to create an ordered list
+        table is used to create a table
+        & th is used to define table headers
+        & tr is used to define table rows
+        & td is used to define table data cells
+        -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+
+    <!--
+        br is used to insert a line break
+        hr is used to insert a horizontal rule
+    -->
+    <br>
+    <hr>
+
+    <!--
+        span is used to group inline elements
+        div is used to group block-level elements
+    -->
+    <span>This is a span element</span>
+    <div>This is a div element</div>
+
+    <!--
+        main is used to define the main content area
+        nav is used to define the navigation area
+        header is used to define the header area
+        footer is used to define the footer area
+        section is used to define a section of content
+        article is used to define an article
+        aside is used to define content aside from the main content
+    -->
+    <main>This is the main content area</main>
+    <nav>This is the navigation area</nav>
+    <header>This is the header area</header>
+    <footer>This is the footer area</footer>
+    <section>This is a section element</section>
+    <article>This is an article element</article>
+    <aside>This is an aside element</aside>
+
+    <!--
+        figure is used to group media content
+        figcaption is used to provide a caption for a figure
+    -->
+    <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="A beautiful picture">
+        <figcaption>A beautiful picture</figcaption>
+    </figure>
+
+
+    <!--
+        mark is used to highlight text
+        small is used to define small text
+        time is used to define a specific time or date
+        code is used to define a piece of computer code
+        s is used to define strikethrough text
+        u is used to define underlined text
+        strong is used to define strong text
+        em is used to define emphasized text
+        b is used to define bold text
+        i is used to define italic text
+        wbr is used to define a word break opportunity
+    -->
+    <mark>This text is highlighted</mark>
+    <small>This is small text</small>
+    <time datetime="2024-06-01">June 1, 2024</time>
+    <code>This is a code element</code>
+    <s>This text is strikethrough</s>
+    <u>This text is underlined</u>
+    <strong>This text is strong</strong>
+    <em>This text is emphasized</em>
+    <b>This text is bold</b>
+    <i>This text is italic</i>
+    <wbr>This is a word break opportunity
+
+    <!--
+        details is used to create a collapsible content section
+        summary is used to define a summary for the details element
+    -->
+    <details>
+        <summary>More info</summary>
+        This is additional information.
+    </details>
+
+    <!--
+        dialog is used to create a dialog box
+        data is used to embed machine-readable data
+        progress is used to display a progress bar
+        meter is used to display a measurement within a known range
+        canvas is used to draw graphics on the fly via scripting
+    -->
+    <dialog>This is a dialog box</dialog>
+    <data value="12345">12345</data>
+    <progress value="70" max="100">70%</progress>
+    <meter value="0.6">60%</meter>
+    <canvas>This is a canvas element</canvas>
+
+    <!--
+        svg is used to define vector-based graphics
+        video is used to embed video content
+        audio is used to embed audio content
+        embed is used to embed external content
+        object is used to embed multimedia content
+        iframe is used to embed another HTML document within the current document
+    -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <embed src="file.pdf" type="application/pdf" width="500" height="375">
+    <object data="file.pdf" type="application/pdf" width="500" height="375">
+        <p>Your browser does not support PDFs. <a href="file.pdf">Download the PDF</a>.</p>
+    </object>
+    <iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+    <!--
+         noscript is used to define alternative content for users who have disabled JavaScript
+        template is used to define a template for reusable content
+    -->
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <template>
+        <p>This is a template element</p>
+    </template>
+
+</body>
+
+</html>
+
+    <!-- End of template1.html -->
